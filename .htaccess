@@ -1,0 +1,4 @@
+# Interne Projektdateien (Pflegeanleitung, Hinweise) nicht öffentlich ausliefern
+<FilesMatch "\.(md|gitignore)$">
+  Require all denied
+</FilesMatch>
