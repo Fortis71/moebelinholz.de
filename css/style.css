@@ -296,3 +296,6 @@ footer{background:#2B2119;color:rgba(244,239,231,.6);padding:44px 0;font-size:14
 .highlights .tile img.swap-in{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover;opacity:0;filter:blur(6px);transform:scale(1.03);
   transition:opacity 700ms var(--ease-out),filter 700ms var(--ease-out),transform 900ms var(--ease-out)}
 .highlights .tile img.swap-in.on{opacity:1;filter:none;transform:none}
+
+/* Kontakt: Formular beginnt auf Höhe der Überschrift (nur zweispaltig) */
+@media (min-width:861px){#form{margin-top:50px}}
